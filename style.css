@@ -1,97 +1,118 @@
-                nav {
-                    margin: 0%;
-                    padding: 0%;
-                }
-                
-                body {
-                    background-color: #1A1F16;
-                }
-                
-                header {
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                }
-                
-                .dp {
-                    border-radius: 50%;
-                    display: block;
-                    margin-left: auto;
-                    margin-right: auto;
-                    width: 50%;
-                    border: 50px #94ECBE;
-                    /* border-style: 50px #94ECBE; */
-                }
-                
-                h1 {
-                    color: #94ECBE;
-                    background-color: #1E3F20;
-                    text-align: center;
-                    font-family: 'Fredoka', sans-serif;
-                }
-                
-                h2 {
-                    color: rgb(0, 255, 42);
-                    text-align: center;
-                    font-family: 'Fredoka', sans-serif;
-                }
-                
-                h3 {
-                    color: #94ECBE;
-                    background-color: #345830;
-                    font-family: 'Fredoka', sans-serif;
-                }
-                
-                h4,
-                h5 {
-                    color: #94ECBE;
-                    font-family: 'Fredoka', sans-serif;
-                }
-                
-                p {
-                    font-size: 32px;
-                    color: #94ECBE;
-                    font-family: 'Fredoka', sans-serif;
-                }
-                
-                ul {
-                    color: white;
-                    font-family: 'Fredoka', sans-serif;
-                }
-                
-                img {
-                    border-radius: 3px;
-                }
-                
-                blockquote {
-                    color: #94ECBE;
-                }
-                
-                table {
-                    font-family: 'Fredoka', sans-serif;
-                    color: #94ECBE;
-                }
-                /* address {
-    font-family: 'Fredoka', sans-serif;
-} */
-                
-                address {
-                    font-family: 'Fredoka', sans-serif;
-                    text-decoration: none;
-                    border: 0.2px solid #000;
-                    color: #94ECBE;
-                    background: #4A7856;
-                    padding: 5px;
-                    border-radius: 8px;
-                    font-family: 'Fredoka', sans-serif;
-                }
-                /* body {
-    background-image: url('');
-  } */
-                
-                .header-li {
-                    display: inline-block;
-                    padding: 0;
-                    text-decoration: none;
-                    list-style: none;
-                }
+         nav {
+             margin: 0%;
+             padding: 0%;
+         }
+         
+         body {
+             background-color: #1A1F16;
+         }
+         
+         header {
+             display: flex;
+             justify-content: space-between;
+             align-items: center;
+         }
+         
+         .dp {
+             border-radius: 50%;
+             display: block;
+             margin-left: auto;
+             margin-right: auto;
+             width: 50%;
+             border: 50px #94ECBE;
+             border-style: 50px #94ECBE;
+         }
+         
+         h1 {
+             color: #94ECBE;
+             background-color: #1E3F20;
+             text-align: center;
+             font-family: 'Fredoka', sans-serif;
+         }
+         
+         h2 {
+             color: rgb(0, 255, 42);
+             text-align: center;
+             font-family: 'Fredoka', sans-serif;
+         }
+         
+         h3 {
+             color: #94ECBE;
+             background-color: #345830;
+             font-family: 'Fredoka', sans-serif;
+         }
+         
+         h4,
+         h5 {
+             color: #94ECBE;
+             font-family: 'Fredoka', sans-serif;
+         }
+         
+         p {
+             font-size: 32px;
+             color: #94ECBE;
+             font-family: 'Fredoka', sans-serif;
+         }
+         
+         ul {
+             color: white;
+             font-family: 'Fredoka', sans-serif;
+         }
+         
+         img {
+             border-radius: 3px;
+         }
+         
+         blockquote {
+             color: #94ECBE;
+         }
+         
+         table {
+             font-family: 'Fredoka', sans-serif;
+             color: #94ECBE;
+         }
+         /* address { font-family: 'Fredoka', sans-serif;} */
+         
+         address {
+             font-family: 'Fredoka', sans-serif;
+             text-decoration: none;
+             border: 0.2px solid #000;
+             color: #94ECBE;
+             background: #4A7856;
+             padding: 5px;
+             border-radius: 8px;
+             font-family: 'Fredoka', sans-serif;
+         }
+         /* body { background-image: url(''); } */
+         
+         .header-li {
+             display: inline-block;
+             padding: 0;
+             text-decoration: none;
+             list-style: none;
+             background-color: #4A7856;
+             height: 80px;
+             width: 100%;
+         }
+         
+         .header-li ul {
+             float: right;
+             margin-right: 20px;
+         }
+         
+         .header-li ul li {
+             display: inline-block;
+         }
+         
+         .linkks {
+             padding-right: 5px;
+             margin-left: auto;
+             margin-right: auto;
+             /* border-radius: 50%; */
+             width: 40%;
+             /* border: 30px red; */
+         }
+         /* .lin {
+             border-radius: 30px red;
+             border-radius: 50;
+         } */
