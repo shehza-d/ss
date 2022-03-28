@@ -5,6 +5,8 @@
          
          body {
              background-color: #1A1F16;
+             /* margin: 0;
+             padding: 0; */
          }
          
          header {
@@ -19,8 +21,9 @@
              margin-left: auto;
              margin-right: auto;
              width: 50%;
-             border: 50px #94ECBE;
-             border-style: 50px #94ECBE;
+             /* border: 50px #94ECBE;
+             border-style: 50px #94ECBE; */
+             /* box-shadow: 5px 5px red; */
          }
          
          h1 {
@@ -28,6 +31,7 @@
              background-color: #1E3F20;
              text-align: center;
              font-family: 'Fredoka', sans-serif;
+             letter-spacing: 0.5rem;
          }
          
          h2 {
