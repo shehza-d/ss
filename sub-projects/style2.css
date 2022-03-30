@@ -1,0 +1,21 @@
+body {
+    background-color: silver;
+}
+
+p {
+    margin: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h1 {
+    background-color: rgb(255, 255, 255);
+}
+
+.p1 {
+    background-color: rgb(32, 116, 243);
+}
+
+.p2 {
+    background-color: rgb(59, 128, 219);
+}
