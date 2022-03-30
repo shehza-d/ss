@@ -10,9 +10,11 @@ p {
 }
 
 h1 {
+    color: #64645A;
     background-color: rgb(255, 255, 255);
     padding: 10px;
     padding-left: 65px;
+    opacity: 70%;
 }
 
 .p1 {
