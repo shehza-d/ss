@@ -6,10 +6,13 @@ p {
     margin: 0px;
     margin-left: 40px;
     margin-right: 40px;
+    padding-left: 15px;
 }
 
 h1 {
     background-color: rgb(255, 255, 255);
+    padding: 10px;
+    padding-left: 65px;
 }
 
 .p1 {
@@ -18,4 +21,64 @@ h1 {
 
 .p2 {
     background-color: rgb(59, 128, 219);
+}
+
+.p1 {
+    background-color: rgb(238, 62, 128);
+}
+
+.p2 {
+    background-color: rgb(244, 90, 139);
+}
+
+.p3 {
+    background-color: rgb(243, 106, 152);
+}
+
+.p4 {
+    background-color: rgb(244, 123, 166);
+}
+
+.p5 {
+    background-color: rgb(245, 140, 178);
+}
+
+p.p6 {
+    background-color: rgb(246, 159, 192);
+}
+
+p.p7 {
+    background-color: rgb(245, 176, 204);
+}
+
+p.p8 {
+    background-color: rgb(0, 187, 136);
+}
+
+p.p9 {
+    background-color: rgb(140, 202, 242);
+}
+
+p.p10 {
+    background-color: rgb(114, 193, 240);
+}
+
+.p11 {
+    background-color: rgb(84, 182, 237);
+}
+
+.p12 {
+    background-color: rgb(48, 170, 233);
+}
+
+.p13 {
+    background-color: rgb(0, 160, 230);
+}
+
+.p14 {
+    background-color: rgb(0, 149, 226);
+}
+
+.p15 {
+    background-color: rgb(0, 136, 221);
 }
