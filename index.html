@@ -18,7 +18,7 @@
 
 
     <nav>
-        <ul class="header-li">
+        <ul class="navv">
             <li><a href="./index.html" class="active">Home</a> </li>
             <li><a href="./projects.html">Projects</a> </li>
             <li> <a href="./blog.html">My Blog</a> </li>
@@ -71,11 +71,11 @@
             <input type="radio" name="radio-btn" id="radio4">
             <input type="radio" name="radio-btn" id="radio5">
 
-            <div class="slide first"> <img src="./compressed photos/bike-pic-compressed2.jpg" alt="" width="350" hight="450"></div>
-            <div class="slide"> <img src="./compressed photos/jalebi-compressed.jpg" alt="" width="350" hight="450"></div>
-            <div class="slide"> <img src="./compressed photos/nzk-sunset-compressed-95.jpg" alt="" width="350" hight="450"></div>
-            <div class="slide"> <img src="./compressed photos/building-green.jpg" alt="" width="350" hight="450"></div>
-            <div class="slide"> <img src="./compressed photos/college-gate.jpg" alt="" width="350" hight="450"></div>
+            <div class="slide first"> <img src="./compressed photos/bike-wp-compressed.jpg" alt="" width="450" hight="550"></div>
+            <div class="slide"> <img src="./compressed photos/jalebi-wp-compressed.jpeg" alt="" width="450" hight="550"></div>
+            <div class="slide"> <img src="./compressed photos/nzk-yellow-wp-compressed.jpeg" alt="" width="450" hight="550"></div>
+            <div class="slide"> <img src="./compressed photos/building-green.jpg" alt="" width="450" hight="550"></div>
+            <div class="slide"> <img src="./compressed photos/college-gate.jpg" alt="" width="450" hight="550"></div>
 
             <div class="navigation-auto">
                 <div class="auto-btn1"></div>
@@ -92,8 +92,18 @@
             <label for="radio2" class="manual-btn"></label>
             <label for="radio3" class="manual-btn"></label>
             <label for="radio4" class="manual-btn"></label>
-            <label for="radio5" class="manual-btn"></label>
+            <label for="radio5" class="manual-btn"></label
         </div>
+        <script type="text/javascript">
+            var counter = 1;
+            setInterval(function() {
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if (counter > 5) {
+                    counter = 1;
+                }
+            }, 5000);
+        </script>
     </div>
 
     <form action="">
