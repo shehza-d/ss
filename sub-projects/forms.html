@@ -6,11 +6,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>S Forms </title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body {
+            background-image: linear-gradient(to right, #cc2b5e, #753a88);
+            display: inline;
+            margin: auto;
+        }
+
+        input {
+            font-size: 120%;
+            color: #5a5854;
+            background-color: #e4e3e3;
+            border: 1px solid #bdbdbd;
+            border-radius: 5px;
+            padding: 5px 5px 5px 30px;
+            background-repeat: no-repeat;
+            background-position: 8px 9px;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input:focus {
+            background-color: #ffffff;
+            border: 1px solid #e4421a;
+        }
+
+        input.email {
+            background-image: url("../compressed/logos/at-solid.svg");
+        }
+
+        input#twitter {
+            background-image: url("images/twitter.png");
+        }
+
+        input#web {
+            background-image: url("images/web.png");
+        }
+        }
+    </style>
 </head>
 
 <body>
-    <a href="./index.html">Home</a>
+    <a href="../index.html">Home</a>
 
     <h1>S FORMS</h1>
     <br>
@@ -18,23 +56,13 @@
         <p>Please enter your name :
             <input type="text" name="shehzad" size="18" maxlength="30" placeholder="Name..." />
         </p>
-    </form>
-    <br>
-
-    <form action="./forms.html">
         <p>Username : <input type="text" name="what" size="15" maxlength="17" placeholder="username..."></p>
-    </form>
-
-    <form>
+        <p>Email : <input class="email" type="email" name="what" size="15" maxlength="17" placeholder="Email..."></p>
         <p> Password : <input type="password" name="whatisname" size="15" maxlength="25" placeholder="Password..."></p>
-    </form>
-    <br>
-    <form action="./forms.html">
+  
         <p>Drop down your comments</p>
         <textarea name="comments" cols="20" rows="5">Your comments...</textarea>
-    </form>
-    <br>
-    <form action="./forms.html">
+   
         <p>Do You like me??
             <br />
             <input type="radio" name="genre" value="YES!!" checked="checked" /> YES!!❤️
